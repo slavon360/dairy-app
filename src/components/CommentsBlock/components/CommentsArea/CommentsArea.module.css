@@ -1,0 +1,22 @@
+.commentsArea{
+    display: flex;
+    justify-content: space-between;
+}
+.commentsArea .leftSide{
+    width: 60px;
+    height: 60px;
+    background-color: #e6e6e6;
+}
+.commentsArea .rightSide{
+    width: calc(100% - 80px);
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+.rightSide textarea{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    resize: none;
+    color: #888;
+    border: 2px solid #ddd;
+}

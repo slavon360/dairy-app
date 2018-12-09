@@ -1,0 +1,28 @@
+.itemsControls{
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.itemsControls input{
+    border: 2px solid #e5e5e5;
+    border-radius: 5px;
+    width: calc(100% - 180px);
+    padding: 7px;
+    font-size: 20px;
+    outline: none;
+}
+.itemsControls input::-webkit-input-placeholder{
+    color: #aaa;
+}
+.itemsControls button{
+    color: #fff;
+    width: 150px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #27ccc0;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.dairyPage{
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+.dynamicContent{
+    margin-left: 15%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.dynamicContent .leftSide,
+.dynamicContent .rightSide{
+    box-shadow: 0 0 10px #999;
+    background-color: #fff;
+}
+.dynamicContent .leftSide{
+    width: 55%;
+}
+.dynamicContent .rightSide{
+    width: 40%;
+}

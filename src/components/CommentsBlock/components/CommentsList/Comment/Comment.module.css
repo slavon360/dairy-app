@@ -1,0 +1,22 @@
+.commentWrp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 10px 0;
+}
+.commentWrp:not(:last-child){
+    border-bottom: 1px solid #f2f2f2;
+}
+.commentWrp .leftSide{
+    width: 60px;
+    height: 60px;
+}
+.commentWrp .rectangle{
+    width: 100%;
+    height: 100%;
+}
+.commentWrp .text{
+    color: #333;
+}
+.commentWrp .rightSide{
+    width: calc(100% - 80px);
+}
